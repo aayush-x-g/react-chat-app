@@ -26,7 +26,7 @@ const Login = () => {
     <div className="login">
       <div className="item">
         <h2>Welcome back,</h2>
-        <form  onSubmit={handleLogin}>
+        <form  onSubmit={handleLogin} >
           <input type="text" placeholder="Email" name="email" />
           <input type="password" placeholder="Password" name="password" />
           <button>Sign In</button>
